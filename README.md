@@ -28,3 +28,7 @@ lam - A list with 6 list elements. Each list element except 0th and the 5th repr
 <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test3.jpg" alt="drawing" height="224px" width="448px" style="float:left;"/> | <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test1.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/> 
 ---------------------------------------------------------------|-------------------------------------------------------------------
 <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test2.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/> | <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test4.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/>
+
+## References
+* Kfir Aberman, Jing Liao, Mingyi Shi, Dani Lischinski, Daniel Cohen-Or, Chen Baoquan. Neural Best-Buddies: Sparse Cross-Domain Correspondence, ACM SIGGRAPH, 37(4), August 2018.
+* Huang, Xun & Belongie, Serge. (2017). Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization. 1510-1519.10.1109/ICCV.2017.167.
