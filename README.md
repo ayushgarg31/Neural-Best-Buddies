@@ -17,9 +17,14 @@ change in angle or illumination etc. changes array a lot making it seem a comple
 The main function in this project which user has to use is neural_best_buddies(). The functions takes in 2 images of any classes between which we have to find correspondences and outputs the found correspondences in each layer of interest.
 
 ## Arguments
-img1 - location/name of the image 1
-img2 - location/name of the image 2
+img1 - location/name of the image 1 of shape 224 x 224 x 3 (as accepted by vgg19)
+
+img2 - location/name of the image 2 of shape 224 x 224 x 3 (as accepted by vgg19)
 
 ## Return Values
 lam - A list with 6 list elements. Each list element except 0th and the 5th represent the found matches in the corresponding layer. Final matches are in 1st list.
 
+## Result
+<img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test3.jpg" alt="drawing" height="224px" width="448px" style="float:left;"/> | <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test1.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/> 
+---------------------------------------------------------------|-------------------------------------------------------------------
+<img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test2.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/> | <img src="https://github.com/ayushgarg31/Neural-Best-Buddies/blob/master/images/test4.jpg" alt="drawing"  height="224px" width="448px" style="float:left;"/>
